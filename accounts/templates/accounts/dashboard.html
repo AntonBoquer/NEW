@@ -8,6 +8,7 @@
     .image-container {
         position: relative;
         margin-bottom: 100px; /* Add margin to the bottom to move the footer line lower */
+        background-color: #f5f5f5; /* Set the background color to the desired hex color */
     }
 
     .button-container {
@@ -20,9 +21,15 @@
     .button-container a {
         display: inline-block; /* Change display from 'block' to 'inline-block' */
         margin: 0 5px; /* Add some horizontal margin between buttons if desired */
+        background-color: #28282B; /* Set the background color of the buttons */
+        color: #ffffff; /* Set the text color to white */
+        padding: 10px 20px; /* Adjust padding to your preference */
+        border: none; /* Remove the button border */
+        text-decoration: none; /* Remove underline for the links */
     }
 </style>
 
+<br>
 <br>
 <br>
 <br>
@@ -34,6 +41,5 @@
         <a href="{% url 'inventory' %}" class="btn btn-primary btn-lg btn-block">Current Stock</a>
     </div>
 </div>
-
 
 {% endblock %}
